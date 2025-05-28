@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab1_simulation">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab1_simulation|LED_flash:LED_flash|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_osh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab1_simulation|clkdivider:clkdivider|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_nsh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

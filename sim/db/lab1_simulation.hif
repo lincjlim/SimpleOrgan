@@ -1,0 +1,164 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+41
+3331
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+lab1_simulation
+# storage
+db|lab1_simulation.(0).cnf
+db|lab1_simulation.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab1_simulation.v
+327c339d85bc9e78497007ecd1f0ef
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+clkdivider
+# storage
+db|lab1_simulation.(1).cnf
+db|lab1_simulation.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab1_simulation.v
+327c339d85bc9e78497007ecd1f0ef
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+LOW_DO_CYCLES
+0000000000000010
+PARAMETER_UNSIGNED_BIN
+DEF
+RE_CYCLES
+0000000000000100
+PARAMETER_UNSIGNED_BIN
+DEF
+MI_CYCLES
+0000000000001000
+PARAMETER_UNSIGNED_BIN
+DEF
+FA_CYCLES
+0000000000001010
+PARAMETER_UNSIGNED_BIN
+DEF
+SO_CYCLES
+0000000000001100
+PARAMETER_UNSIGNED_BIN
+DEF
+LA_CYCLES
+0000000000001110
+PARAMETER_UNSIGNED_BIN
+DEF
+SI_CYCLES
+0000000000010000
+PARAMETER_UNSIGNED_BIN
+DEF
+HIGH_DO_CYCLES
+0000000000010010
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+clkdivider:clkdivider
+}
+# macro_sequence
+
+# end
+# entity
+LED_flash
+# storage
+db|lab1_simulation.(2).cnf
+db|lab1_simulation.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab1_simulation.v
+327c339d85bc9e78497007ecd1f0ef
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+LED_flash:LED_flash
+}
+# macro_sequence
+
+# end
+# complete
+
